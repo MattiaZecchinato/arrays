@@ -18,7 +18,11 @@ teachers[5] = 'Patrick';
 console.log(teachers);
 
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
-const lastTeacher = null;
+const arrayLength = teachers.length - 1;
+const lastTeacher = teachers[arrayLength];
+console.log(lastTeacher);
+teachers.pop();
+console.log(teachers);
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = null;
